@@ -1,0 +1,250 @@
+/************************** header **************************/
+
+header {
+  background-color: #f8e4a5;
+}
+.logo {
+  color: #2861c2;
+  font-size: 32px;
+  font-weight: 700;
+  text-decoration: none;
+}
+nav a {
+  color: #2861c2;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+nav a:hover {
+  color: #c36b36;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+.menu-toggle {
+  background: none;
+  border: none;
+  color: #2861c2;
+  font-size: 28px;
+  padding: 10px;
+  cursor: pointer;
+}
+/***************** hero **************/
+
+.hero h1 {
+  font-size: 32px;
+  line-height: 1.1;
+  color: #2861c2;
+}
+.hero-butten {
+  display: inline-block;
+  background-color: #2861c2;
+  color: white;
+  padding: 12px 20px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+/*************** historie ***************/
+.historie {
+  background-color: #f8e4a5;
+}
+.historie-text h2 {
+  color: #2861c2;
+  font-size: 28px;
+}
+.historie_butten {
+  display: inline-block;
+  background-color: white;
+  color: #2861c2;
+  border: 1px solid #2861c2;
+  padding: 12px 20px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+/******************brygning*****************/
+.brygning h2 {
+  color: #2861c2;
+  font-size: 32px;
+}
+.kort_text h3 {
+  color: #2861c2;
+  font-size: 16px;
+}
+/*************** øltyper ****************/
+
+.oltyper {
+  background-color: #f8e4a5;
+}
+
+.oltyper h2 {
+  color: #2861c2;
+  font-size: 32px;
+}
+
+.oltype-kort {
+  background-color: #fffdf5;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.oltype-kort img {
+  width: 100%;
+  height: 180px;
+  object-fit: contain;
+}
+
+.oltype-kort h3 {
+  color: #2861c2;
+}
+.oel_knap {
+  display: inline-block;
+  background-color: #2861c2;
+  color: white;
+  padding: 12px 20px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/****** micro bryg*******/
+
+.bryggerier h2 {
+  color: #2861c2;
+  font-size: 32px;
+}
+.micro_knap {
+  display: inline-block;
+  background-color: #2861c2;
+  color: white;
+  padding: 12px 20px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/************footer*************/
+
+footer {
+  background-color: #2861c2;
+  color: white;
+}
+
+.footer-logo {
+  color: white;
+  font-size: 36px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.footer-nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  margin-top: 40px;
+  padding-top: 15px;
+}
+
+.footer-bottom p {
+  font-size: 12px;
+}
+/********************************************* Historie ****************************************/
+
+.historie-intro h1 {
+  color: #2861c2;
+  font-size: 48px;
+}
+
+.tidslinje {
+  background-color: #f8e4a5;
+}
+
+.tidslinje h2 {
+  color: #2861c2;
+  text-align: center;
+  font-size: 32px;
+  border-bottom: 2px solid #2861c2;
+  padding-bottom: 15px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.periode {
+  background-color: #fffdf5;
+  border: 1px solid #777;
+  border-radius: 20px;
+  padding: 25px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.periode span {
+  color: #e67e22;
+}
+
+.periode h3 {
+  color: #2861c2;
+}
+/***************************************** øl typer**************************************/
+.oltype-detalje {
+  background-color: #fcf9ec;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+}
+.oltype-detalje h3 {
+  color: #2861c2;
+  font-size: 22px;
+  margin-bottom: 8px;
+}
+
+.oltype-detalje p {
+  font-size: 15px;
+  line-height: 1.5;
+}
+.oltyper-oversigt {
+  background-color: #f8e4a5;
+  padding: 50px 30px;
+  text-align: center;
+}
+.oltyper-oversigt h2 {
+  font: size 16px;
+  color: #c36b36;
+}
+
+.oltyper-oversigt h1 {
+  color: #2861c2;
+  font-size: 32px;
+}
+
+.oltyper-lister {
+  background-color: #f1dd99;
+}
+.ol-mad h2 {
+  color: #2861c2;
+  font-size: 32px;
+}
+
+.mad-kort {
+  border: 1px solid #a9c5e6;
+  border-radius: 20px;
+  padding: 25px;
+  text-align: left;
+}
+
+.mad-kort h3 {
+  color: #e67e22;
+  font-size: 28px;
+}
+
+.mad-kort h4 {
+  color: #2861c2;
+}

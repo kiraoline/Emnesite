@@ -1,0 +1,296 @@
+/************************** header **************************/
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+.menu-toggle {
+  display: none;
+}
+
+/***************** hero **************/
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  padding: 0 0 0 30px;
+  align-items: center;
+}
+.hero img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  object-position: center 15%;
+}
+.hero-text {
+  max-width: 500px;
+}
+
+/********************* historie **************/
+
+.historie {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.historie img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position: center 85%;
+}
+.historie-text {
+  padding: 40px;
+}
+
+/************ brygning ***************/
+.brygning {
+  padding: 40px 30px;
+}
+
+.brygnings_grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.brygnings_kort {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 1px solid #b8d1e9;
+}
+.brygnings_kort img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.kort_text {
+  padding: 12px;
+}
+
+/**************** oeltyper **************/
+
+.oltyper {
+  padding: 50px 30px;
+  text-align: center;
+}
+
+.oltyper-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  max-width: 800px;
+  margin: 30px auto;
+}
+
+.oel_knap {
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+/********* micro bryg**********/
+
+.bryggerier {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  padding: 50px 30px;
+  align-items: center;
+}
+
+.bryggerier img {
+  width: 100%;
+  max-height: 350px;
+  object-fit: contain;
+}
+/***********footer**************/
+
+footer {
+  padding: 40px 30px 20px;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer-nav ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/********************************************* Historie ****************************************/
+
+.historie-intro {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.tidslinje {
+  padding: 50px 30px;
+}
+
+.tidslinje-kort {
+  max-width: 700px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+  border-left: 2px solid #2861c2;
+  padding-left: 30px;
+}
+/********************************************* øltyper ******************************************/
+.oltyper-liste {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  align-items: center;
+  max-width: 900px;
+  margin: 30px auto;
+}
+.oltype-detalje img {
+  width: 100%;
+  height: 220px;
+  object-fit: contain;
+}
+.ol-mad {
+  padding: 50px 30px;
+  text-align: center;
+}
+.mad-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  margin-top: 30px;
+  max-width: 1000px;
+  margin: 30px auto 0;
+}
+/********************************************** media *********************************************/
+
+@media (max-width: 768px) {
+  header nav {
+    display: none;
+  }
+  .menu-toggle {
+    display: block;
+  }
+  .hero {
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
+  .hero img {
+    height: 350px;
+  }
+  .hero h1 {
+    font-size: 32px;
+  }
+
+  .historie > img {
+    display: none;
+  }
+
+  /********** historie *****/
+
+  .historie {
+    grid-template-columns: 1fr;
+  }
+  .historie img {
+    height: 220px;
+  }
+  .historie-text {
+    padding: 30px 20px;
+  }
+  /********** brygning*******/
+  .brygnings_grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+
+  .brygning-kort {
+    grid-template-columns: 40% 60%;
+  }
+
+  .brygning {
+    padding: 30px 20px;
+  }
+
+  .brygning h2 {
+    font-size: 26px;
+  }
+  /************** øltyper**********/
+
+  .oltyper-grid {
+    grid-template-columns: 1fr;
+    max-width: 300px;
+  }
+
+  .oltyper {
+    padding: 30px 20px;
+  }
+  /*********** microbryg********/
+
+  .bryggerier {
+    grid-template-columns: 1fr;
+    padding: 30px 20px;
+    gap: 20px;
+  }
+
+  .bryggerier h2 {
+    font-size: 26px;
+  }
+  /************************************************* Historie**************************************/
+
+  .historie-intro {
+    padding: 25px 20px;
+  }
+
+  .tidslinje {
+    padding: 30px 15px;
+  }
+
+  .tidslinje-kort {
+    padding-left: 12px;
+    gap: 12px;
+    margin: 20px auto;
+  }
+
+  .historie-intro h1 {
+    font-size: 30px;
+  }
+
+  .tidslinje h2 {
+    font-size: 24px;
+  }
+
+  .periode {
+    padding: 15px;
+  }
+
+  .periode h3 {
+    font-size: 18px;
+  }
+  /************************************************ øl typer **************************************/
+  .oltyper-liste {
+    grid-template-columns: 1fr;
+  }
+  .mad-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .ol-mad {
+    padding: 30px 20px;
+  }
+}
